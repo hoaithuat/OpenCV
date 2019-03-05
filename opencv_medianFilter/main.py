@@ -4,7 +4,7 @@
 import cv2 as cv
 import numpy as np
 
-img1 = cv.imread('pic2.png',cv.IMREAD_GRAYSCALE)
+img1 = cv.imread('pic1.png',cv.IMREAD_GRAYSCALE)
 img2 = np.empty_like(img1)
 height = len(img1)
 width = len(img1[0])
