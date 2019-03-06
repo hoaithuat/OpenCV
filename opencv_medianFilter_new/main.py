@@ -4,7 +4,7 @@ import cv2 as cv
 img1 = cv.imread('pic1.png', cv.IMREAD_GRAYSCALE)
 height = len(img1)
 width  = len(img1[0])
-filterSize =3
+filterSize =5
 temp = []
 indexer = filterSize//2
 img2 = np.empty_like(img1)
